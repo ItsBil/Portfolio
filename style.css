@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  
+  grid-template-columns: repeat(12,1fr);
+}
+
+header {
+  color: #fff;
+  grid-column: 2/ span 5;
+  font-size: 2.5rem;
+  padding: 2rem;
+  padding-top: 9rem;
+  margin-bottom: var(--spacing);
+}
+
+blockquote{
+  margin: 0;
+  padding: 0;
+  grid-column: 2/ span 9;
+  margin-bottom: var(--spacing);
+}
+
+section {
+  grid-column: 2/8;
+  padding: 1rem;
+  background-color: black;
+  border-right: 5px solid #FFFFFF;
+  border-radius: 0px 40px 40px 0px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing);
+  font-family: 'Raleway';
+}
+
+h1 {
+    font-family: Impact, Charconpal, sans-serif;  
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#picture {
+  padding-top: 200px;
+  width: 20%;
+}
+
+#counter {
+  color: #fff;
+}
+
+#center {
+  position: fixed;
+  width: 100%;
+  padding-top: 1%;
+}
+
+#side {
+  position: fixed;
+  margin-left: 64%;
+  margin-top: 10%;
+ 
+}
+
+#bilal {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+#centerlogo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#break {
+  grid-column: 2/8;
+  padding: 15rem;
+  line-height: 1.5;
+}
+
+
